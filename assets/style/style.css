@@ -1,0 +1,208 @@
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #354240;
+      text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .offset-top {
+    height: 80px;
+  }
+
+.navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 13px;
+      letter-spacing: 5px;
+      background-color: #273742;
+      color: white;
+      font-weight: 500;
+  }
+
+.navbar-nav>li>a:focus {
+    background-color: #60eacf !important;
+    color: white;
+    
+}
+
+.navbar-nav  li a:hover {
+      color: #60eacf !important;
+      
+  }
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-weight: bolder;
+    
+  }
+
+  .navbar-default .navbar-brand {
+    color: white;
+     font-weight: 900;
+     
+  }
+
+  .navbar-default .navbar-brand:hover {
+      color: #60eacf;
+  }
+
+  .navbar-default .navbar-nav:focus {
+      background-color: #60eacf !important;
+    color: white;
+  }
+
+  span.iconbar {
+    color: white;
+  }
+
+  .filler {
+    height: 300px;
+  }
+
+  #intro {
+    background-image: url("../images/charlottesky.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+  }
+
+  #intro, #portfolio {
+    background-color: #c4fcf5;
+    min-height: 400px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+
+  #about, #contact {
+    background-color: #c9f0ff;
+    min-height: 400px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+  }
+
+  #photo {
+    height:200px;
+    width:200px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .projectimages {
+    height: 150px;
+    width: auto;
+    margin: 0 auto 0 auto;
+  }
+
+  textarea {
+
+    /* TODO */
+    /* fix color scheme (sections and font) */
+    /* highlighting of navbar navs color scheme */
+    /* get a good white based intro bg */
+    /* secondary footer on top of footer for connect with me icons (from freelancer theme) */
+    /* fix modals for portfolio links (from freelancer theme) */
+    /* nav shrink on scroll (from freelancer theme) */
+    
+  }
+
+  footer {
+    background-color: #4c6677;
+      color: white;
+      padding-top: 10px;
+  }
+
+  .bottom-footer {
+    background-color: #273742;
+  }
+
+  body.modal-open {
+    overflow: visible;
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    /*opacity: 8;*/
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(105,137,159,1.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.btn-social {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+
+  }
+
+.btn-outline {
+    color: #fff;
+    font-size: 40px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 15px;
+  }
+
+  .btn-social:hover{
+    color: #18BC9C;
+    background-color: white;
+    outline: 0;
+}
+
+.btn-social:focus{
+    color: #18BC9C;
+    outline: 0;
+}
+
+.git:hover {
+  transform: translateX(-30px);
+}
+
+.linked:hover {
+  transform: translateY(-30px);
+}
+
+.stack:hover {
+  transform: translateX(30px);
+}
+
+/* fixing navbar hover colors from default grey in bootstrap.less to custom */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #60eacf;
+}
+
+.footer-location {
+  margin-top: 50px;
+}
+
+.connect-options {
+  margin-bottom: 30px;
+}
